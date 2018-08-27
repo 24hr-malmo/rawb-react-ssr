@@ -1,0 +1,76 @@
+{
+    "name": "rawb-react-ssr",
+    "version": "0.8.0",
+    "description": "Frontend Service Side Render for React and RAWB",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/24hr-malmo/rawb-react-ssr.git"
+    },
+    "keywords": [
+        "react",
+        "ssr",
+        "rawb"
+    ],
+    "author": "Camilo Tapia <camilo.tapia@24hr.se>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/24hr-malmo/rawb-react-ssr/issues"
+    },
+    "homepage": "https://github.com/24hr-malmo/rawb-react-ssr#readme",
+    "eslintConfig": {
+        "env": {
+            "browser": true,
+            "commonjs": true,
+            "es6": true,
+            "node": true,
+            "mocha": true
+        },
+        "parser": "babel-eslint",
+        "extends": "eslint:recommended",
+        "parserOptions": {
+            "ecmaFeatures": {
+                "experimentalObjectRestSpread": true
+            },
+            "sourceType": "module",
+            "ecmaVersion": "2017"
+        },
+        "plugins": [],
+        "rules": {
+            "indent": [
+                "error",
+                4,
+                {
+                    "SwitchCase": 1
+                }
+            ],
+            "linebreak-style": [
+                "error",
+                "unix"
+            ],
+            "quotes": [
+                "error",
+                "single"
+            ],
+            "semi": [
+                "error",
+                "always"
+            ],
+            "camelcase": 1
+        }
+    },
+    "dependencies": {
+        "lru-cache": "4.1.3",
+        "redux": "3.4.0",
+        "redux-thunk": "2.0.1",
+        "react-redux": "^5.0.0",
+        "react": "16.2.0",
+        "react-helmet": "^5.2.0",
+        "react-router-dom": "^4.2.0",
+        "react-dom": "16.2.0",
+        "react-loadable": "5.4.0"
+    }
+}
