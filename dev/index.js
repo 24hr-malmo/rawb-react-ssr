@@ -45,7 +45,7 @@ async function test() {
             verbose: (...options) => console.log(...options), // eslint-disable-line
             error: (...options) => console.log(...options), // eslint-disable-line
         },
-        App: () => {},
+        App: () => '<html/>',
     };
 
     try {
