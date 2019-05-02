@@ -1,3 +1,6 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+
 class RegisterFetchActionProvider extends React.Component {
     static childContextTypes = {
         registerFetchAction: PropTypes.func.isRequired
@@ -12,5 +15,5 @@ class RegisterFetchActionProvider extends React.Component {
     }
 }
 
-export default RegisterFetchActionProvider
+export default RegisterFetchActionProvider;
 

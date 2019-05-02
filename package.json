@@ -4,8 +4,8 @@
     "description": "Frontend Service Side Render for React and RAWB",
     "main": "dist/index.js",
     "scripts": {
-        "dev": "./node_modules/@babel/cli/bin/babel.js . --ignore dev,node_modules --out-dir ./dist --source-maps inline --verbose --watch ",
-        "build": "./node_modules/@babel/cli/bin/babel.js . --ignore dev,node_modules --out-dir ./dist",
+        "dev": "./node_modules/@babel/cli/bin/babel.js . --ignore dist,dev,node_modules --out-dir ./dist --source-maps inline --verbose --watch ",
+        "build": "./node_modules/@babel/cli/bin/babel.js . --ignore dist,dev,node_modules --out-dir ./dist",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
