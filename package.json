@@ -1,8 +1,11 @@
 {
     "name": "rawb-react-ssr",
-    "version": "2.0.0",
+    "version": "2.0.5",
     "description": "Frontend Service Side Render for React and RAWB",
     "main": "dist/index.js",
+    "directories": {
+        "lib": "dist"
+    },
     "scripts": {
         "dev": "./node_modules/@babel/cli/bin/babel.js . --ignore dist,dev,node_modules --out-dir ./dist --source-maps inline --verbose --watch ",
         "build": "./node_modules/@babel/cli/bin/babel.js . --ignore dist,dev,node_modules --out-dir ./dist",
