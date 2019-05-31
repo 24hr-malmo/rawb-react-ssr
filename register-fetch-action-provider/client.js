@@ -8,7 +8,11 @@ class RegisterFetchActionProvider extends React.Component {
     getChildContext() {
         return {
             registerFetchAction: (action) => {
-                action();
+                if (this.props.actionCaller) {
+                    this.props.actionCaller(action);
+                } else {
+                    action();
+                }
             }
         };
     }
