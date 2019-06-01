@@ -1,6 +1,6 @@
 {
     "name": "rawb-react-ssr",
-    "version": "2.0.7",
+    "version": "2.0.8",
     "description": "Frontend Service Side Render for React and RAWB",
     "main": "dist/index.js",
     "directories": {
