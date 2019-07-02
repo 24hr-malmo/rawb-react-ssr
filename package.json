@@ -1,11 +1,9 @@
 {
     "name": "rawb-react-ssr",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "description": "Frontend Service Side Render for React and RAWB",
-    "main": "dist/index.js",
+    "main": "index.js",
     "scripts": {
-        "dev": "./node_modules/@babel/cli/bin/babel.js . --ignore dist,dev,node_modules --out-dir ./dist --source-maps inline --verbose --watch ",
-        "build": "./node_modules/@babel/cli/bin/babel.js . --ignore dist,dev,node_modules --out-dir ./dist",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -77,14 +75,5 @@
         "react-router-dom": ">=4",
         "react-dom": ">=16",
         "react-loadable": ">=5"
-    },
-    "devDependencies": {
-        "@babel/cli": "^7.4.4",
-        "@babel/core": "^7.4.4",
-        "@babel/plugin-proposal-class-properties": "^7.4.4",
-        "@babel/plugin-proposal-export-default-from": "^7.2.0",
-        "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
-        "@babel/preset-env": "^7.4.4",
-        "@babel/preset-react": "^7.0.0"
     }
 }
